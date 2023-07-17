@@ -1,5 +1,5 @@
 # C++ Primer Plus
-C++ Primer Plus 6th answers (by **PytLab**)
+C++ Primer Plus 6th answers (by **zxlkgf**)
 
 C++ Primer Plus(第六版 中文版) 编程练习答案(全部本人所写，仅供参考)
 
