@@ -1,0 +1,22 @@
+// waiting.cpp -- using clock() in a time delay loop
+#include <iostream>
+#include <ctime>		//describes clock() funciton, clock_t type
+using std::cout;
+using std::cin;
+using std::endl;
+using std::string;
+
+int main()
+{
+	cout << "Enter the delay time, in seconds: ";
+	float secs;
+	cin >> secs;
+	clock_t delay = secs * CLOCKS_PER_SEC;	//convert to clock ticks
+	cout << "starting\a\n";
+	clock_t start = clock();
+	cout << "start = " << start << endl;
+	while (clock() - start < delay) {};		// wait until time elapses
+	cout << "Done.\a\n";
+
+	return 0;
+}
