@@ -10,3 +10,4 @@ C++ Primer Plus(第六版 中文版) 编程练习答案(全部本人所写，仅
  - [第五章 循环和关系表达式](https://github.com/zxlkgf/C_CppLearning/tree/main/ch05)
  - [第六章 分支语句和逻辑运算符](https://github.com/zxlkgf/C_CppLearning/tree/main/ch06)
  - [第七章 C++的编程模块](https://github.com/zxlkgf/C_CppLearning/tree/main/ch07)
+ - [第八章 函数探幽](https://github.com/zxlkgf/C_CppLearning/tree/main/ch08)
