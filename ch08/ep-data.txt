@@ -1,0 +1,7 @@
+Focal length of objective: 10mm
+f.1. eyeplace  magnification
+        10.0              1
+        20.0              1
+        30.0              0
+        40.0              0
+        50.0              0
