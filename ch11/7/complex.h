@@ -4,10 +4,6 @@
 
 namespace m_complex
 {
-    using std::cout;
-    using std::cin;
-    using std::endl;
-
     class Complex
     {
     private:
