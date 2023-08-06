@@ -31,7 +31,7 @@ StringBad::~StringBad()
     --num_strings;
     cout << num_strings  << " left" << endl;
     delete[] this->str;
-}                   
+}             
 
 std::ostream& operator<<(std::ostream& os, const StringBad& st)
 {
