@@ -24,5 +24,4 @@ int main()
     Hoggy.WithDraw(4200.00);
     Hoggy.ViewAcct();
 	// std::cin.get()
-
 }
