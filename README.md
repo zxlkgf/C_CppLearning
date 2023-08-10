@@ -16,3 +16,4 @@ C++ Primer Plus(第六版 中文版) 编程练习答案(全部本人所写，仅
  - [第十一章 使用类](https://github.com/zxlkgf/C_CppLearning/tree/main/ch11)
  - [第十二章 类和动态内存分配](https://github.com/zxlkgf/C_CppLearning/tree/main/ch12)
  - [第十三章 类继承](https://github.com/zxlkgf/C_CppLearning/tree/main/ch13)
+ - [第十四章 c++中的代码重用](https://github.com/zxlkgf/C_CppLearning/tree/main/ch14)
