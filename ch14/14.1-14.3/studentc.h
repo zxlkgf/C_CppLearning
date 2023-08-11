@@ -13,12 +13,12 @@ private:
     ArrayDb scores;
     std::ostream & arr_out(std::ostream &os)const;
 public:
-    Student():name("Null Student")ArrayDb() {}
-    explicit Student(const std::string & s):name(s), ArrayDb() {}
-    explicit Student(int n) : name("Nully"), ArrayDb(n) {}
-    Student(const std::string & s, int n):name(s), ArrayDb(n) {}
-    Student(const std::string & s, const ArrayDb & a):name(s), ArrayDb(a) {}
-    Student(const char * str, const double * pd, int n):name(str), ArrayDb(pd, n) {}
+    Student():name("Null Student"),scores(){}
+    explicit Student(const std::string & s):name(s), scores() {}
+    explicit Student(int n) : name("Nully"), scores(n) {}
+    Student(const std::string & s, int n):name(s), scores(n) {}
+    Student(const std::string & s, const ArrayDb & a):name(s), scores(a) {}
+    Student(const char * str, const double * pd, int n):name(str), scores(pd, n) {}
     ~Student() {}
     double Average() const;
     double & operator[](int i);
