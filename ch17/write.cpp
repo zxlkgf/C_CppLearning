@@ -1,5 +1,7 @@
 // write()
 // basic_ostream<charT,traits>& write(const char_type * s, streamsize n);
+// 第一个参数提供要显示的字符串你的地址
+// 第二个参数提供要显示几个字符
 
 #include <iostream>
 #include <cstring>
